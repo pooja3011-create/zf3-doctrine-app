@@ -21,7 +21,7 @@ return [
                 'driverClass' => PDOMySqlDriver::class,
                 'params' => [
                     'host'     => 'db', // uses the name of the container from docker-compose             
-                    'user'     => 'dbuser',
+                    'user'     => 'root',
                     'port'     => '3306',
                     'password' => '654321',
                     'dbname'   => 'zf_notification',
